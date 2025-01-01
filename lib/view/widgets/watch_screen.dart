@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tentwenty_task/core/utils/size_utils.dart';
+import 'package:tentwenty_task/utils/size_utils.dart';
 import 'package:tentwenty_task/view/screens/movie_detail_screen.dart';
 import 'package:tentwenty_task/view/widgets/shared_widgets/text_widget.dart';
-import '../../core/cubits/movies_list_cubit/all_movie_list_cubit.dart';
-import '../../core/cubits/movies_list_cubit/all_movie_list_state.dart';
-import '../../core/utils/app_colors.dart';
+import '../../cubits/movies_list_cubit/all_movie_list_cubit.dart';
+import '../../cubits/movies_list_cubit/all_movie_list_state.dart';
+import '../../utils/app_colors.dart';
 import '../screens/movie_search_screen.dart';
 
 class WatchScreen extends StatefulWidget {

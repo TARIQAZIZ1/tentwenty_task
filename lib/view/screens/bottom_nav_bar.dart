@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import '../../core/cubits/bottom_nav/bottom_nav_cubit.dart';
-import '../../core/utils/enums.dart';
+import '../../cubits/bottom_nav/bottom_nav_cubit.dart';
+import '../../utils/enums.dart';
 import '../widgets/bottom_nav_bar.dart';
 import '../widgets/shared_widgets/base_scaffold_widget.dart';
 

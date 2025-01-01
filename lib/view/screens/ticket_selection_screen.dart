@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:tentwenty_task/core/utils/size_utils.dart';
+import 'package:tentwenty_task/utils/size_utils.dart';
 import 'package:tentwenty_task/view/screens/seat_booking_module/curved_screen.dart';
 import 'package:tentwenty_task/view/screens/seat_booking_module/seat_color.dart';
 import 'package:tentwenty_task/view/screens/seat_booking_module/seat_widget.dart';
-import '../../core/utils/app_colors.dart';
 import '../../data/models/seats_model.dart';
+import '../../utils/app_colors.dart';
 import '../widgets/shared_widgets/text_widget.dart';
 
 class TicketSelectScreen extends StatefulWidget {

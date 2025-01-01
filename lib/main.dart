@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tentwenty_task/core/utils/bloc_providers.dart';
+import 'package:tentwenty_task/utils/bloc_providers.dart';
+import 'package:tentwenty_task/utils/size_utils.dart';
 import 'package:tentwenty_task/view/widgets/bottom_nav_bar.dart';
-import 'core/utils/size_utils.dart';
 
 
 void main() async {

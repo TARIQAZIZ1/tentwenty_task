@@ -1,11 +1,11 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tentwenty_task/core/utils/size_utils.dart';
+import 'package:tentwenty_task/utils/size_utils.dart';
 import 'package:tentwenty_task/view/widgets/shared_widgets/text_widget.dart';
-import '../../../core/cubits/bottom_nav/bottom_nav_cubit.dart';
-import '../../../core/utils/app_colors.dart';
-import '../../../core/utils/enums.dart';
+import '../../../cubits/bottom_nav/bottom_nav_cubit.dart';
+import '../../../utils/app_colors.dart';
+import '../../../utils/enums.dart';
 import 'image_widget.dart';
 
 class BottomNavWidget extends StatelessWidget {

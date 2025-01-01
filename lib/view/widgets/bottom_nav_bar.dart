@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tentwenty_task/view/widgets/shared_widgets/bottom_nav_widget.dart';
-import '../../core/cubits/bottom_nav/bottom_nav_cubit.dart';
-import '../../core/utils/enums.dart';
+import '../../cubits/bottom_nav/bottom_nav_cubit.dart';
+import '../../utils/enums.dart';
 
 class BottomNavBar extends StatelessWidget {
   BottomNavBar({

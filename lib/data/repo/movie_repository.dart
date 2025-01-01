@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:tentwenty_task/core/config/api_address.dart';
 
+import '../../config/api_address.dart';
 import '../models/movie_model.dart';
 
 class MoviesRepository {

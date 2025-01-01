@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tentwenty_task/core/utils/app_colors.dart';
-
 import '../../../data/models/seats_model.dart';
+import '../../../utils/app_colors.dart';
 
 
 class SeatWidget extends StatelessWidget {

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:tentwenty_task/core/cubits/movie_details_cubit/movie_details_cubit.dart';
-import 'package:tentwenty_task/core/utils/size_utils.dart';
+import 'package:tentwenty_task/utils/size_utils.dart';
 import 'package:tentwenty_task/view/screens/seat_mapping_screen.dart';
 import 'package:tentwenty_task/view/screens/trailer_player_screen.dart';
-import '../../core/utils/app_colors.dart';
+import '../../cubits/movie_details_cubit/movie_details_cubit.dart';
 import '../../data/models/movie_model.dart';
+import '../../utils/app_colors.dart';
 import '../widgets/shared_widgets/text_widget.dart';
 
 class MovieDetailScreen extends StatefulWidget {
@@ -54,6 +54,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
             final movie = state.movie;
             return SingleChildScrollView(
               child: ListView(
+                physics: const NeverScrollableScrollPhysics(),
                 padding: EdgeInsets.zero,
                 shrinkWrap: true,
                 //crossAxisAlignment: CrossAxisAlignment.start,
@@ -210,6 +211,7 @@ class _GenresAndOverviewSection extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       color: Colors.white,
       child: ListView(
+        physics: const NeverScrollableScrollPhysics(),
         padding: EdgeInsets.zero,
         shrinkWrap: true,
         children: [

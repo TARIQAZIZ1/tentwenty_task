@@ -2,10 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:tentwenty_task/core/utils/size_utils.dart';
+import 'package:tentwenty_task/utils/size_utils.dart';
 import 'package:tentwenty_task/view/screens/ticket_selection_screen.dart';
-
-import '../../core/utils/app_colors.dart';
+import '../../utils/app_colors.dart';
 
 class SeatMappingScreen extends StatefulWidget {
   final String movieName;
@@ -130,7 +129,7 @@ class SeatMappingScreenState extends State<SeatMappingScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(
               horizontal: 16.0,
-              vertical: 36,
+              vertical: 26,
             ),
             child: ElevatedButton(
               onPressed: () {
